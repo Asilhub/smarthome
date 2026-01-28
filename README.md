@@ -40,21 +40,13 @@ As a robotics teacher and a student myself, I noticed that students often strugg
 ### Installation
 1.  Clone this repository:
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/EduSmart-Home-ESP32.git](https://github.com/YOUR_USERNAME/EduSmart-Home-ESP32.git)
+    git clone [https://github.com/Asilhub/smarthome.git](https://github.com/Asilhub/smarthome.git)
     ```
 2.  Open `src/main.ino` in Arduino IDE.
-3.  Update your WiFi credentials and Sinric Pro App Key:
-    ```cpp
-    #define WIFI_SSID       "YOUR_WIFI_NAME"
-    #define WIFI_PASS       "YOUR_WIFI_PASSWORD"
-    #define APP_KEY         "YOUR_SINRIC_APP_KEY"
-    #define APP_SECRET      "YOUR_SINRIC_APP_SECRET"
-    ```
+3.  Update your WiFi credentials and Sinric Pro App Key inside the code.
 4.  Upload the code to your ESP32.
 
 ## 📸 Schematics & PCB
-*(Place your EasyEDA screenshot or Gerber file image here. Example: `![PCB Design](schematic/pcb_preview.png)`)*
-
 You can find the Gerber files in the `schematic/` folder to manufacture this board.
 
 ## 🤝 Contributing
